@@ -39,3 +39,11 @@ int32_t get_utf16(const bool is_LE) {
     }
     return c1;
 }
+
+int32_t get_utf16_LE() {
+    return get_utf16(true);
+}
+
+int32_t get_utf16_BE() {
+    return get_utf16(false);
+}

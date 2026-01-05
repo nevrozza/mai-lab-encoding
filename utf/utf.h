@@ -11,6 +11,12 @@
 int32_t get_utf8();
 
 bool is_utf16_LE();
+
 int32_t get_utf16(bool is_LE);
+
+
+// wrappers для передачи функции с "переданным" параметром в main
+int32_t get_utf16_LE();
+int32_t get_utf16_BE();
 
 #endif //UTF_H
