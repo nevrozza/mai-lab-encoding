@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(mai_lab_fsm
         main.c
+        fsm/fsm.c
+        fsm/fsm.h
 )
