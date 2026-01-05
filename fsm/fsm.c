@@ -33,7 +33,7 @@ bool is_separator(const uint32_t c) {
 }
 
 bool is_digit(const uint32_t c) {
-    return c >= '0' && c <= '9';
+    return c == '1' || c == '0'; // binary
 }
 
 void start_case(FSM *fsm, const uint32_t c) {

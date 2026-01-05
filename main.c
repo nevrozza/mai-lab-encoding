@@ -8,6 +8,7 @@
 
 
 int main(int _, char *argv[]) {
+    freopen(NULL, "rb", stdin);
     int32_t (*get_sym)(void);
 
     if (strcmp(argv[1], "--utf16") == 0) {

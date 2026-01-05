@@ -16,7 +16,7 @@ typedef struct FSM FSM;
 
 FSM* fsm_create();
 
-void fsm_step(FSM *fsm, uint32_t codepoint);
+void fsm_step(FSM *fsm, uint32_t c);
 
 void fsm_finish(FSM *fsm);
 
